@@ -17,5 +17,6 @@ public class AlteraSaldoContaLeonardo {
 		em.getTransaction().begin();
 		contaDoLeonardo.setSaldo(20.0);
 		em.getTransaction().commit();
+		em.close();
 	}
 }

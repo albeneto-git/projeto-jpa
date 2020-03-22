@@ -22,5 +22,6 @@ public class CriaConta {
 		em.persist(conta);
 		
 		em.getTransaction().commit();
+		em.close();
 	}
 }

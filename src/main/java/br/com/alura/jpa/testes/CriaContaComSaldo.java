@@ -23,5 +23,6 @@ public class CriaContaComSaldo {
 		em.persist(conta);
 		
 		em.getTransaction().commit();
+		em.close();
 	}
 }

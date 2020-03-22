@@ -26,6 +26,7 @@ public class TestandoEstados {
 		// Managed -> Removed
 		em.remove(conta);
 		
-		em.getTransaction().commit();			
+		em.getTransaction().commit();		
+		em.close();
 	}
 }
