@@ -19,7 +19,7 @@ public class TesteRelacionamentoMovimentacaoCategoria {
 	public static void main(String[] args) {
 		
 		Conta conta = new Conta();
-		conta.setId(2L);
+		conta.setId(4L);
 		
 		List<Categoria> categorias = new ArrayList<Categoria>();
 		Categoria categoria = new Categoria("Viagem");
