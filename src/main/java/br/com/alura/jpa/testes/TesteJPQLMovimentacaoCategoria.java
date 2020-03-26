@@ -20,6 +20,7 @@ public class TesteJPQLMovimentacaoCategoria {
 		
 		String jpql = "select m from Movimentacao m join m.categorias c where c = :pCategoria";
 		
+		@SuppressWarnings("deprecation")
 		Categoria categoria = new Categoria();
 		categoria.setId(3L);
 		
